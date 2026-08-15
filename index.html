@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namarata Mishra — Haute Couture & Luxury Fashion House</title>
+    <meta name="description"
+        content="Namarata Mishra — Where timeless elegance meets contemporary artistry. Discover our exclusive haute couture collections, bespoke tailoring, and luxury ready-to-wear pieces crafted for the discerning connoisseur.">
+    <meta name="keywords"
+        content="luxury fashion, haute couture, designer clothing, bespoke tailoring, premium fashion house">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-line"></div>
+            <span class="preloader-brand">Namarata Mishra</span>
+            <div class="preloader-line"></div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div id="cursor" class="custom-cursor"></div>
+    <div id="cursor-follower" class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <header id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" id="nav-logo">
+                <span class="logo-text">NAMRATA</span>
+                <span class="logo-accent">MISHRA</span>
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#hero" class="nav-link active" data-section="hero">Home</a>
+                <a href="#collections" class="nav-link" data-section="collections">Collections</a>
+                <a href="#products" class="nav-link" data-section="products">Boutique</a>
+                <a href="#story" class="nav-link" data-section="story">Our Story</a>
+                <a href="#testimonials" class="nav-link" data-section="testimonials">Atelier</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="nav-icon-btn" id="search-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="nav-icon-btn" id="cart-btn" aria-label="Shopping bag">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-badge" id="cart-badge">0</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#hero" class="mobile-link">Home</a>
+            <a href="#collections" class="mobile-link">Collections</a>
+            <a href="#products" class="mobile-link">Boutique</a>
+            <a href="#story" class="mobile-link">Our Story</a>
+            <a href="#testimonials" class="mobile-link">Atelier</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero-banner.png" alt="Namarata Mishra Couture Collection" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <!-- <div class="hero-badge reveal-up">Autumn/Winter 2026</div> -->
+            <h1 class="hero-title reveal-up">
+                <span class="hero-title-line">The Art of</span>
+                <span class="hero-title-line hero-title-italic">Timeless</span>
+                <span class="hero-title-line">Elegance</span>
+            </h1>
+            <p class="hero-subtitle reveal-up">Where heritage craftsmanship meets contemporary vision.<br>Each piece, a
+                masterpiece.</p>
+            <div class="hero-cta reveal-up">
+                <a href="#collections" class="btn btn-primary">Explore Collections</a>
+                <a href="#story" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span></span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Marquee Banner -->
+    <div class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>Haute Couture</span>
+                <span class="marquee-dot">◆</span>
+                <span>Bespoke Tailoring</span>
+                <span class="marquee-dot">◆</span>
+                <span>Ready-to-Wear</span>
+                <span class="marquee-dot">◆</span>
+                <span>Limited Edition</span>
+                <span class="marquee-dot">◆</span>
+                <span>Handcrafted Excellence</span>
+                <span class="marquee-dot">◆</span>
+                <span>Haute Couture</span>
+                <span class="marquee-dot">◆</span>
+                <span>Bespoke Tailoring</span>
+                <span class="marquee-dot">◆</span>
+                <span>Ready-to-Wear</span>
+                <span class="marquee-dot">◆</span>
+                <span>Limited Edition</span>
+                <span class="marquee-dot">◆</span>
+                <span>Handcrafted Excellence</span>
+                <span class="marquee-dot">◆</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Collections Section -->
+    <section id="collections" class="collections-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Curated For You</span>
+                <h2 class="section-title">Our Collections</h2>
+                <div class="section-divider"><span class="divider-diamond">◆</span></div>
+                <p class="section-desc">Each collection tells a story — of heritage, of artistry, of the extraordinary
+                    moments that define a life well-lived.</p>
+            </div>
+
+            <div class="collections-grid">
+                <div class="collection-card collection-card-large reveal-left" id="collection-winter">
+                    <div class="collection-card-img">
+                        <img src="images/collection-winter.png" alt="Winter Opulence Collection" loading="lazy">
+                    </div>
+                    <div class="collection-card-overlay">
+                        <span class="collection-card-tag">New Season</span>
+                        <h3 class="collection-card-title">Winter Opulence</h3>
+                        <p class="collection-card-desc">Luxurious layers and rich textures for the season of splendor
+                        </p>
+                        <a href="#products" class="collection-card-link">
+                            Discover <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="collection-card reveal-right" id="collection-evening">
+                    <div class="collection-card-img">
+                        <img src="images/product-dress.png" alt="Evening Soirée Collection" loading="lazy">
+                    </div>
+                    <div class="collection-card-overlay">
+                        <span class="collection-card-tag">Exclusive</span>
+                        <h3 class="collection-card-title">Evening Soirée</h3>
+                        <p class="collection-card-desc">Unforgettable gowns for unforgettable nights</p>
+                        <a href="#products" class="collection-card-link">
+                            Discover <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="collection-card reveal-left" id="collection-tailored">
+                    <div class="collection-card-img">
+                        <img src="images/product-suit.png" alt="The Tailored Edit Collection" loading="lazy">
+                    </div>
+                    <div class="collection-card-overlay">
+                        <span class="collection-card-tag">Signature</span>
+                        <h3 class="collection-card-title">The Tailored Edit</h3>
+                        <p class="collection-card-desc">Precision-cut silhouettes for the modern connoisseur</p>
+                        <a href="#products" class="collection-card-link">
+                            Discover <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-up">
+                    <span class="stat-number" data-target="47">0</span>
+                    <span class="stat-label">Years of Excellence</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-up">
+                    <span class="stat-number" data-target="120">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Master Artisans</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-up">
+                    <span class="stat-number" data-target="35">0</span>
+                    <span class="stat-label">Countries Worldwide</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-up">
+                    <span class="stat-number" data-target="10000">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Bespoke Creations</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products / Boutique Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Exquisite Pieces</span>
+                <h2 class="section-title">The Boutique</h2>
+                <div class="section-divider"><span class="divider-diamond">◆</span></div>
+            </div>
+
+            <!-- Product Filters -->
+            <div class="product-filters reveal-up" id="product-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="women">Women</button>
+                <button class="filter-btn" data-filter="men">Men</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card reveal-up" data-category="women" id="product-1">
+                    <div class="product-card-image">
+                        <img src="images/product-dress.png" alt="Scarlet Noir Evening Gown" loading="lazy">
+                        <div class="product-card-actions">
+                            <button class="product-action-btn wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="product-action-btn quickview-btn" aria-label="Quick view">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="product-badge">New Arrival</span>
+                    </div>
+                    <div class="product-card-info">
+                        <span class="product-category-tag">Evening Wear</span>
+                        <h3 class="product-name">Scarlet Noir Evening Gown</h3>
+                        <p class="product-description">Hand-draped silk with Swarovski crystal detailing</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$4,850</span>
+                            <button class="add-to-cart-btn" data-product="Scarlet Noir Evening Gown" data-price="4850">
+                                Add to Bag
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card reveal-up" data-category="men" id="product-2">
+                    <div class="product-card-image">
+                        <img src="images/product-blazer.png" alt="Midnight Silk Blazer" loading="lazy">
+                        <div class="product-card-actions">
+                            <button class="product-action-btn wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="product-action-btn quickview-btn" aria-label="Quick view">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="product-badge product-badge-exclusive">Exclusive</span>
+                    </div>
+                    <div class="product-card-info">
+                        <span class="product-category-tag">Tailored</span>
+                        <h3 class="product-name">Midnight Silk Blazer</h3>
+                        <p class="product-description">Italian silk blend with hand-stitched lapels</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$3,200</span>
+                            <button class="add-to-cart-btn" data-product="Midnight Silk Blazer" data-price="3200">
+                                Add to Bag
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card reveal-up" data-category="women" id="product-3">
+                    <div class="product-card-image">
+                        <img src="images/product-coat.png" alt="Camel Cashmere Overcoat" loading="lazy">
+                        <div class="product-card-actions">
+                            <button class="product-action-btn wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="product-action-btn quickview-btn" aria-label="Quick view">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card-info">
+                        <span class="product-category-tag">Outerwear</span>
+                        <h3 class="product-name">Camel Cashmere Overcoat</h3>
+                        <p class="product-description">Double-faced cashmere with mother-of-pearl buttons</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$6,500</span>
+                            <button class="add-to-cart-btn" data-product="Camel Cashmere Overcoat" data-price="6500">
+                                Add to Bag
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card reveal-up" data-category="men" id="product-4">
+                    <div class="product-card-image">
+                        <img src="images/product-suit.png" alt="Royal Navy Tailored Suit" loading="lazy">
+                        <div class="product-card-actions">
+                            <button class="product-action-btn wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="product-action-btn quickview-btn" aria-label="Quick view">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="product-badge product-badge-limited">Limited</span>
+                    </div>
+                    <div class="product-card-info">
+                        <span class="product-category-tag">Suiting</span>
+                        <h3 class="product-name">Royal Navy Tailored Suit</h3>
+                        <p class="product-description">Super 180's wool with Bemberg lining</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$5,900</span>
+                            <button class="add-to-cart-btn" data-product="Royal Navy Tailored Suit" data-price="5900">
+                                Add to Bag
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- product 5 -->
+                <div class="product-card reveal-up" data-category="women" id="product-1">
+                    <div class="product-card-image">
+                        <img src="images/img3.png" alt="Scarlet Noir Evening Gown" loading="lazy">
+                        <div class="product-card-actions">
+                            <button class="product-action-btn wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="product-action-btn quickview-btn" aria-label="Quick view">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="product-badge">New Arrival</span>
+                    </div>
+                    <div class="product-card-info">
+                        <span class="product-category-tag">Evening Wear</span>
+                        <h3 class="product-name">Scarlet Noir Evening Gown</h3>
+                        <p class="product-description">Hand-draped silk with Swarovski crystal detailing</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$4,850</span>
+                            <button class="add-to-cart-btn" data-product="Scarlet Noir Evening Gown" data-price="4850">
+                                Add to Bag
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- product 6 -->
+                <div class="product-card reveal-up" data-category="women" id="product-1">
+                    <div class="product-card-image">
+                        <img src="images/img4.png" alt="Scarlet Noir Evening Gown" loading="lazy">
+                        <div class="product-card-actions">
+                            <button class="product-action-btn wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                            <button class="product-action-btn quickview-btn" aria-label="Quick view">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </button>
+                        </div>
+                        <span class="product-badge">New Arrival</span>
+                    </div>
+                    <div class="product-card-info">
+                        <span class="product-category-tag">Evening Wear</span>
+                        <h3 class="product-name">Scarlet Noir Evening Gown</h3>
+                        <p class="product-description">Hand-draped silk with Swarovski crystal detailing</p>
+                        <div class="product-price-row">
+                            <span class="product-price">$4,850</span>
+                            <button class="add-to-cart-btn" data-product="Scarlet Noir Evening Gown" data-price="4850">
+                                Add to Bag
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Quote Section -->
+    <section class="parallax-quote">
+        <div class="parallax-bg"></div>
+        <div class="parallax-content reveal-up">
+            <svg class="quote-icon" width="48" height="48" viewBox="0 0 24 24" fill="currentColor" opacity="0.3">
+                <path
+                    d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z">
+                </path>
+            </svg>
+            <blockquote>
+                "Elegance is not about being noticed, it's about being remembered."
+            </blockquote>
+            <cite>— Giorgio Armani</cite>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-images reveal-left">
+                    <div class="story-image-main">
+                        <img src="images/collection-winter.png" alt="Namarata Mishra Atelier" loading="lazy">
+                    </div>
+                    <div class="story-image-accent">
+                        <img src="images/product-blazer.png" alt="Craftsmanship Detail" loading="lazy">
+                    </div>
+                </div>
+                <div class="story-content reveal-right">
+                    <span class="section-tag">Our Legacy</span>
+                    <h2 class="section-title section-title-left">A Heritage of Extraordinary Craft</h2>
+                    <div class="story-line"></div>
+                    <p class="story-text">Founded in 1979 in the ateliers of Paris, Namarata Mishra has spent nearly five
+                        decades perfecting the marriage of traditional craftsmanship with contemporary vision.</p>
+                    <p class="story-text">Every stitch tells a story. Every fabric is hand-selected from the world's
+                        finest mills — from the silk weavers of Como to the cashmere producers of Inner Mongolia. Our
+                        master artisans spend over 200 hours on each couture piece, ensuring every detail achieves
+                        perfection.</p>
+                    <p class="story-text">Today, Namarata Mishra stands as a beacon of luxury fashion — present in 35
+                        countries, yet still crafting each piece with the same intimate attention that defined our very
+                        first collection.</p>
+                    <div class="story-signature">
+                        <div class="signature-line"></div>
+                        <span>Isabelle Élara, Creative Director</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Services -->
+    <section class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card reveal-up" id="feature-bespoke">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Bespoke Tailoring</h3>
+                    <p class="feature-desc">Custom-made pieces crafted to your exact measurements by our master tailors
+                        in Paris</p>
+                </div>
+                <div class="feature-card reveal-up" id="feature-shipping">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1">
+                            <rect x="1" y="3" width="15" height="13"></rect>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                            <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                            <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">White-Glove Delivery</h3>
+                    <p class="feature-desc">Complimentary worldwide shipping in our signature packaging, hand-delivered
+                        to your door</p>
+                </div>
+                <div class="feature-card reveal-up" id="feature-guarantee">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Lifetime Guarantee</h3>
+                    <p class="feature-desc">Every piece comes with our promise of enduring quality and complimentary
+                        alterations</p>
+                </div>
+                <div class="feature-card reveal-up" id="feature-concierge">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Personal Concierge</h3>
+                    <p class="feature-desc">Dedicated style advisors available for private consultations and styling
+                        appointments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Client Stories</span>
+                <h2 class="section-title">Voices of Distinction</h2>
+                <div class="section-divider"><span class="divider-diamond">◆</span></div>
+            </div>
+
+            <div class="testimonials-slider" id="testimonials-slider">
+                <div class="testimonial-card active" id="testimonial-1">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">"The moment I wore my Namarata Mishra gown, I understood what
+                        true luxury feels like. It wasn't just a dress — it was an experience. The craftsmanship is
+                        unlike anything I've ever encountered."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-author-info">
+                            <span class="testimonial-name">Arabella St. Claire</span>
+                            <span class="testimonial-role">Art Collector, London</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" id="testimonial-2">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">"I've worn suits from every major house in the world. NAMRATA
+                        Élara is, without question, the pinnacle. The fit, the fabric, the attention to every last
+                        detail — it's perfection made tangible."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-author-info">
+                            <span class="testimonial-name">James Ashford III</span>
+                            <span class="testimonial-role">CEO, Ashford Capital</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" id="testimonial-3">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">"From the private consultation to the final fitting, every
+                        step was pure elegance. My wedding dress was a masterpiece — the hand-embroidered details still
+                        take my breath away."</blockquote>
+                    <div class="testimonial-author">
+                        <div class="testimonial-author-info">
+                            <span class="testimonial-name">Victoria Montague</span>
+                            <span class="testimonial-role">Socialite, Monaco</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-controls">
+                <button class="testimonial-nav-btn" id="testimonial-prev" aria-label="Previous testimonial">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5M12 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <div class="testimonial-dots" id="testimonial-dots">
+                    <span class="testimonial-dot active"></span>
+                    <span class="testimonial-dot"></span>
+                    <span class="testimonial-dot"></span>
+                </div>
+                <button class="testimonial-nav-btn" id="testimonial-next" aria-label="Next testimonial">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content reveal-up">
+                <span class="section-tag">Stay Informed</span>
+                <h2 class="newsletter-title">Join the Inner Circle</h2>
+                <p class="newsletter-desc">Be the first to discover new collections, receive exclusive invitations, and
+                    enjoy private access to our most coveted pieces.</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <div class="newsletter-input-group">
+                        <input type="email" placeholder="Enter your email address" required id="newsletter-email"
+                            class="newsletter-input" aria-label="Email address">
+                        <button type="submit" class="newsletter-btn">
+                            Subscribe
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="newsletter-note">By subscribing, you agree to our Privacy Policy. Unsubscribe at any time.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Visit Our Atelier</h2>
+                <div class="section-divider"><span class="divider-diamond">◆</span></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-item" id="contact-address">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Flagship Atelier</h4>
+                            <p>27 Rue du Faubourg Saint-Honoré<br>75008 Paris, France</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" id="contact-phone">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Concierge</h4>
+                            <p>+33 1 42 68 00 00<br>Mon — Sat: 10:00 — 19:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item" id="contact-email">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>concierge@namratamishra.com<br>appointments@namratamishra.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Pinterest">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M8 12a4 4 0 1 1 8 0c0 2.22-1.5 4-3 6l-1 4"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal-right" id="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact-name">Full Name</label>
+                            <input type="text" id="contact-name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email-input">Email</label>
+                            <input type="email" id="contact-email-input" placeholder="your@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <select id="contact-subject" required>
+                            <option value="" disabled selected>Select a subject</option>
+                            <option value="appointment">Private Appointment</option>
+                            <option value="bespoke">Bespoke Inquiry</option>
+                            <option value="order">Order Status</option>
+                            <option value="press">Press & Media</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" rows="5" placeholder="Tell us about your vision..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Send Message
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-text">NAMRATA</span>
+                        <span class="logo-accent">MISHRA</span>
+                    </div>
+                    <p class="footer-tagline">Where timeless elegance meets contemporary artistry. Since 1979.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">NAMRATA</h4>
+                    <a href="#story" class="footer-link">Our Heritage</a>
+                    <a href="#collections" class="footer-link">Collections</a>
+                    <a href="#" class="footer-link">Sustainability</a>
+                    <a href="#" class="footer-link">Careers</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Client Care</h4>
+                    <a href="#contact" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Shipping & Returns</a>
+                    <a href="#" class="footer-link">Size Guide</a>
+                    <a href="#" class="footer-link">Care Instructions</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Legal</h4>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Cookie Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Namarata Mishra. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"></path>
+        </svg>
+    </button>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span id="toast-message">Item added to bag</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
